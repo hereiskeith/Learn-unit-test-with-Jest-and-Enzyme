@@ -1,3 +1,4 @@
 export const findByTestAttr = (component, attr) => {
-  return component.find(`[data-test='${attr}']`);
+  const wrapper = component.find(`[data-test='${attr}']`);
+  return wrapper;
 };
