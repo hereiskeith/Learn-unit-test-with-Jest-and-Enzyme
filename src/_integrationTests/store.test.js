@@ -2,7 +2,7 @@ import { testStore } from "../utils";
 import moxios from 'moxios';
 import { fetchPosts } from "../actions";
 
-describe('Test for action fetchPosts', () => {
+describe('Test for store', () => {
 
   beforeEach(() => {
     moxios.install();
